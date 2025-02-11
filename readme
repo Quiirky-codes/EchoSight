@@ -1,1 +1,41 @@
-Initial commit
+# EchoSight 
+**AI-Powered Assistive Device for the Visually Impaired**  
+
+## Overview  
+EchoSight is an **AI-driven assistive technology** that enhances navigation and safety for visually impaired individuals. By integrating **face recognition, object detection, and obstacle sensing**, it converts visual information into **real-time audio feedback**, making the environment more accessible.  
+
+## Features  
+- **Real-time Image Capture** – Captures frames using **ESP32-CAM**  
+- **Face Recognition** – Identifies known faces using **Dlib**  
+- **Object Detection** – Utilizes **YOLOv4-Tiny** for object identification  
+- **Obstacle Detection** – Detects nearby obstacles using an **ultrasonic sensor**  
+- **Audio Feedback** – Converts detected information into **speech output** via **Text-to-Speech (TTS)**  
+
+## Hardware Requirements  
+- **ESP32-CAM** – Captures images for processing  
+- **NodeMCU ESP8266** – Handles communication and processing  
+- **Ultrasonic Sensor (HC-SR04)** – Detects obstacles within **2 meters**  
+- **Voltage Divider** – Ensures compatibility between components  
+- **Portable Battery Pack** – Powers the system  
+
+## Software Requirements  
+- **Python 3.8+**  
+- **OpenCV** – Image processing  
+- **Dlib** – Face recognition  
+- **YOLOv4-Tiny** – Object detection  
+- **Pyttsx3** – Text-to-Speech engine  
+- **Arduino IDE** – For flashing firmware onto **NodeMCU ESP8266**  
+- **Firmware Libraries:** ESP32-CAM support, WiFi libraries  
+
+## 🖼️ System Workflow  
+![EchoSight Workflow]("D:\Echo_Sight_7th_Sem_Final_Project\flow.png")  
+
+## How It Works  
+1. **Image Processing:** ESP32-CAM captures live frames.  
+2. **Face Recognition:** Dlib processes the frames and recognizes known faces.  
+3. **Object Detection:** YOLOv4-Tiny identifies objects in real-time.  
+4. **Obstacle Detection:** Ultrasonic sensor provides distance alerts.  
+5. **Audio Feedback:** The processed results are converted into speech via the **TTS engine**.  
+
+## Project Structure  
+
