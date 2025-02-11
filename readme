@@ -27,8 +27,8 @@ EchoSight is an **AI-driven assistive technology** that enhances navigation and 
 - **Arduino IDE** – For flashing firmware onto **NodeMCU ESP8266**  
 - **Firmware Libraries:** ESP32-CAM support, WiFi libraries  
 
-## 🖼️ System Workflow  
-![EchoSight Workflow]("D:\Echo_Sight_7th_Sem_Final_Project\flow.png")  
+## System Workflow  
+ 
 
 ## How It Works  
 1. **Image Processing:** ESP32-CAM captures live frames.  
